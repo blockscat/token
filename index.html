@@ -1,0 +1,1460 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://blockcat.io/ -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://blockcat.io/wp-content/uploads/blockcat_favicon.png">
+<title>BlockCAT – Smart Contracts for Everyone</title>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="BlockCAT » Feed" href="https://blockcat.io/feed/">
+<link rel="alternate" type="application/rss+xml" title="BlockCAT » Comments Feed" href="https://blockcat.io/comments/feed/">
+<script async="" src="./analytics.js"></script><script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b===c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-0.1em!important;background:none!important;padding:0!important;}</style>
+<link rel="stylesheet" id="fw-ext-builder-frontend-grid-css" href="./frontend-grid.css" type="text/css" media="all">
+<link rel="stylesheet" id="fw-ext-forms-default-styles-css" href="./frontend.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="./font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="./bootstrap.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="animate-css" href="./animate.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="slick-css" href="./slick.css" type="text/css" media="all">
+<link rel="stylesheet" id="simple-icons-css" href="./simple-line-icons.css" type="text/css" media="all">
+<link rel="stylesheet" id="themify-icons-css" href="./themify-icons.css" type="text/css" media="all">
+<link rel="stylesheet" id="lightcase-css" href="./lightcase.css" type="text/css" media="all">
+<link rel="stylesheet" id="jssocials-css" href="./jssocials.css" type="text/css" media="all">
+<link rel="stylesheet" id="simpleselect-css" href="./jquery.simpleselect.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="sumoselect-css" href="./sumoselect.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="jevelin-shortcodes-css" href="./shortcodes.css" type="text/css" media="all">
+<link rel="stylesheet" id="jevelin-styles-css" href="./style.css" type="text/css" media="all">
+<link rel="stylesheet" id="jevelin-responsive-css" href="./responsive.css" type="text/css" media="all">
+<style id="jevelin-responsive-inline-css" type="text/css">.sh-tabs-filter li a,.woocommerce .woocommerce-tabs li:not(.active) a,.woocommerce .product .posted_in a,.woocommerce .product .tagged_as a,.woocommerce .product .woocommerce-review-link,.woocommerce-checkout #payment div.payment_box,.sh-default-color a,.sh-default-color,.post-meta-two a,#sidebar a,.logged-in-as a,.post-meta-author a,.sh-social-share-networks .jssocials-share i,.sh-header-left-side .sh-header-copyrights-text a,.wpcf7-form-control-wrap .simpleselect{color:#565656!important;}.woocommerce nav.woocommerce-pagination ul.page-numbers a{color:#565656;}html body,html .menu-item a{font-family:"Open Sans";color:#565656;font-weight:300;font-size:14px;}.woocommerce ul.products li.product a h3:hover,.woocommerce ul.products li.product ins,.post-title h2:hover,.sh-team:hover .sh-team-role,.sh-team-style4 .sh-team-role,.sh-team-style4 .sh-team-icon:hover i,.sh-header-search-submit,.woocommerce .woocommerce-tabs li.active a,.woocommerce .required,.sh-recent-products .woocommerce .star-rating span::before,.woocommerce .woocomerce-styling .star-rating span::before,.woocommerce div.product p.price,.woocomerce-styling li.product .amount,.post-format-icon,.sh-accent-color,.sh-blog-tag-item:hover h6,ul.page-numbers a:hover,.sh-portfolio-single-info-item i,.sh-filter-item.active,.sh-filter-item:hover,.sh-nav .sh-nav-cart li.menu-item-cart .mini_cart_item .amount,.sh-pricing-button-style3,#sidebar a:not(.sh-social-widgets-item):hover,.logged-in-as a:hover,.woocommerce table.shop_table.cart a:hover,.wrap-forms sup:before,.sh-comment-date a:hover,.reply a.comment-edit-link,.comment-respond #cancel-comment-reply-link,.sh-portfolio-title:hover,.sh-portfolio-single-related-mini h5:hover{color:#1baaf8!important;}.woocommerce p.stars.selected a:not(.active),.woocommerce p.stars.selected a.active,.sh-dropcaps-full-square,.sh-dropcaps-full-square-border{background-color:#1baaf8;}.contact-form input[type="submit"],.sh-back-to-top:hover,.sh-dropcaps-full-square-tale,.sh-404-button,.woocommerce .wc-forward,.woocommerce .checkout-button,.woocommerce div.product form.cart button,.woocommerce .button:not(.add_to_cart_button),.sh-blog-tag-item,.sh-comments .submit,.sh-sidebar-search-active .search-field,.sh-nav .sh-nav-cart .buttons a.checkout,ul.page-numbers .current,ul.page-numbers .current:hover,.post-background,.post-item .post-category .post-category-list,.cart-icon span,.comment-input-required,.widget_tag_cloud a:hover,.widget_product_tag_cloud a:hover,.woocommerce #respond input#submit,.sh-portfolio-overlay1-bar,.sh-pricing-button-style4,.sh-pricing-button-style11,.sh-revslider-button2,.sh-portfolio-default2 .sh-portfolio-title,.sh-recent-posts-widgets-count,.sh-filter-item.active:after,.blog-style-largedate .post-comments,.sh-video-player-image-play,.woocommerce .woocommerce-tabs li a:after,.sh-image-gallery .slick-dots li.slick-active button,.sh-recent-posts-carousel .slick-dots li.slick-active button,.sh-recent-products-carousel .slick-dots li.slick-active button,.sh-settings-container-bar .sh-progress-status-value,.post-password-form input[type="submit"],.wpcf7-form .wpcf7-submit,.sh-portfolio-filter-style3 .sh-filter-item.active .sh-filter-item-content,.sh-portfolio-filter-style4 .sh-filter-item:hover .sh-filter-item-content,.sh-woocommerce-categories-count,.sh-woocommerce-products-style2 .woocommerce ul.products li.product .add_to_cart_button:hover,.woocomerce-styling.sh-woocommerce-products-style2 ul.products li.product .add_to_cart_button:hover,.sh-icon-group-style2 .sh-icon-group-item:hover,.sh-text-background{background-color:#1baaf8!important;}::selection{background-color:#1baaf8!important;color:#fff;}::-moz-selection{background-color:#1baaf8!important;color:#fff;}.woocommerce .woocommerce-tabs li.active a,.sh-header-8 .sh-nav>.current-menu-item a{border-bottom-color:#1baaf8!important;}#header-quote,.sh-dropcaps-full-square-tale:after,.sh-blog-tag-item:after,.widget_tag_cloud a:hover:after,.widget_product_tag_cloud a:hover:after{border-left-color:#1baaf8!important;}.cart-icon .cart-icon-triangle-color{border-right-color:#1baaf8!important;}.sh-back-to-top:hover,.widget_price_filter .ui-slider .ui-slider-handle,.sh-sidebar-search-active .search-field:hover,.sh-sidebar-search-active .search-field:focus{border-color:#1baaf8!important;}.post-item .post-category .arrow-right{border-left-color:#1baaf8;}.woocommerce .wc-forward:hover,.woocommerce .button:not(.add_to_cart_button):hover,.woocommerce .checkout-button:hover,.woocommerce #respond input#submit:hover,.contact-form input[type="submit"]:hover,.wpcf7-form .wpcf7-submit:hover,.sh-video-player-image-play:hover,.sh-404-button:hover,.post-password-form input[type="submit"],.sh-pricing-button-style11:hover,.sh-revslider-button2.spacing-animation:hover{background-color:#1d62f0!important;}.sh-mini-overlay-container,.sh-portfolio-overlay-info-box,.sh-portfolio-overlay-bottom .sh-portfolio-icon,.sh-portfolio-overlay-bottom .sh-portfolio-text,.sh-portfolio-overlay2-bar,.sh-portfolio-overlay2-data,.sh-portfolio-overlay3-data{background-color:rgba(27,170,248,0.75)!important;}.widget_price_filter .ui-slider .ui-slider-range{background-color:rgba(27,170,248,0.5)!important;}.sh-team-social-overlay2 .sh-team-image:hover .sh-team-overlay2,.sh-overlay-style1,.sh-portfolio-overlay4{background-color:rgba(27,170,248,0.8)!important;}a{color:#1baaf8;}a:hover,a:focus,.post-meta-two a:hover{color:#1baaf8;}body h1,body h2,body h3,body h4,body h5,body h6{font-family:"Open Sans";color:#3f3f3f;font-weight:300;}.sh-heading-font,.masonry2 .post-meta-one,.masonry2 .post-meta-two,.sh-countdown>div>span,.sh-woocommerce-products-style2 ul.products li.product .price,.sh-blog-style2 .widget_product_tag_cloud a,.sh-blog-style2 .widget_tag_cloud a,.sh-blog-style2 .sh-recent-posts-widgets-item-content .post-meta-categories,.sh-blog-style2 .post-meta-categories,.sh-blog-style2 .post-item-single .post-meta-data,.rev_slider .sh-rev-blog .sh-revslider-button2,.sh-portfolio-filter-style4 .sh-filter span{font-family:Open Sans;}h1{font-size:30px;}h2{font-size:24px;}h3{font-size:21px;}h4{font-size:18px;}h5{font-size:16px;}h6{font-size:14px;}.sh-progress-style1 .sh-progress-title,.sh-progress-style1 .sh-progress-value2,.sh-progress-style4 .sh-progress-title,.sh-progress-style4 .sh-progress-value2,.sh-progress-style5 .sh-progress-title,.widget_price_filter .price_slider_wrapper .price_label span,.product_list_widget a span,.woocommerce .product .woo-meta-title,.woocommerce .product .price ins,.woocommerce .product .price .amount,.woocommerce-checkout #payment ul.payment_methods li,table th,.woocommerce-checkout-review-order-table .order-total span,.sh-comment-form label,.sh-piechart-percentage,.woocommerce table.shop_table a.remove:hover:before,.woocommerce .woocommerce-tabs .commentlist .comment-text .meta strong,.sh-pricing-amount,.sh-pricing-icon,.sh-countdown>div>span,.blog-single .post-title h1:hover,.blog-single .post-title h2:hover,.post-meta-author a:hover,.post-meta-categories a:hover,.post-meta-categories span:hover,.woocommerce table.shop_table.cart a,.wrap-forms label,.wpcf7-form p,.post-password-form label,.product_list_widget ins,.product_list_widget .amount,.sh-social-share-networks .jssocials-share:hover i,.sh-page-links p,.woocommerce ul.products li.product .add_to_cart_button:hover{color:#3f3f3f!important;}.primary-desktop .sh-header-top{background-color:#1baaf8!important;}.sh-header-left-1 .header-bottom,.sh-header-left-1 .header-social-media i,.sh-header-left-1 .sh-side-button-search i,.sh-header-left-1 .sh-side-button-cart .sh-nav-cart i,.sh-header-left-side .header-bottom,.sh-header-left-2 .header-social-media i{color:#565656;}.sh-header-search-close i,.sh-header .sh-nav>li.menu-item>a,.sh-header .sh-nav>li.menu-item>a>i,.sh-header-mobile-navigation li.menu-item>a>i,.sh-header-left-side li.menu-item>a,.sh-header-left-2 .sh-side-button-search,.sh-header-left-2 .sh-side-button-cart,.sh-header-left-2 .sh-side-button-cart .sh-nav-cart i,.sh-header-left-2 .sh-nav li.menu-item>a.fa:before{color:rgba(61,61,61,0.69);}.sh-header .c-hamburger span,.sh-header .c-hamburger span:before,.sh-header .c-hamburger span:after,.sh-header-mobile-navigation .c-hamburger span,.sh-header-mobile-navigation .c-hamburger span:before,.sh-header-mobile-navigation .c-hamburger span:after{background-color:rgba(61,61,61,0.69);}.sh-header .sh-nav-login #header-login>span{border-color:rgba(61,61,61,0.69);}.sh-nav>li.menu-item>a,.sh-nav-mobile li a{font-size:13px;}.sh-header .sh-nav>li.menu-item:hover:not(.sh-nav-social)>a,.sh-header .sh-nav>li.menu-item:hover:not(.sh-nav-social)>a>i,.sh-header .sh-nav>li.sh-nav-social>a:hover>i,.sh-header-mobile-navigation li>a:hover>i,.sh-header-left-side li.menu-item>a:hover{color:rgba(61,61,61,0.80);}.sh-header .sh-nav>.current_page_item>a,.sh-header .sh-nav>.current-menu-ancestor>a,.sh-header-left-side .sh-nav>.current_page_item>a{color:#1baaf8!important;}.header-logo img{height:50px;max-height:250px;}.sh-header-mobile-navigation .header-logo img{height:30px;max-height:250px;}.sh-sticky-header-active .header-logo img{height:50px;}.sh-header-6 .sh-nav>.menu-item:not(.sh-nav-social),.sh-header-6 .sh-nav>.sh-nav-social a{height:80px;width:80px;}.sh-header-5 .sh-nav>.menu-item{height:80px!important;max-height:80px!important;}.sh-header-5 .sh-nav>.menu-item>a,.sh-header-6 .sh-nav>.menu-item>a{line-height:80px!important;max-height:80px!important;height:80px!important;}.sh-header-5 .sh-nav>.current_page_item{margin-top:20px!important;margin-bottom:20px!important;}.sh-header,.sh-header-top-3,.sh-header-top-4,.sh-header-left-side .sh-header-search .line-test,.sh-header-left-2 .sh-nav>li>a,.sh-header-left-2 .sh-side-buttons .sh-table-cell,{border-bottom:1px solid rgba(0,0,0,0.08);}.sh-header-top-3 .header-contacts-item span,.sh-header-top-3 .header-social-media a,.sh-header-5 .sh-nav-login,.sh-header-5 .sh-nav-cart,.sh-header-5 .sh-nav-search,.sh-header-5 .sh-nav-social,.sh-header-5 .sh-nav-social a:not(:first-child),.sh-header-6 .sh-nav>.menu-item:not(.sh-nav-social),.sh-header-6 .sh-nav>.sh-nav-social a,.sh-header-6 .header-logo,.sh-header-left-1 .header-social-media a{border-left:1px solid rgba(0,0,0,0.08);}.sh-header-top-3 .container,.sh-header-5 .sh-nav>.menu-item:last-child,.sh-header-6 .sh-nav>.menu-item:last-child,.sh-header-6 .header-logo,.sh-header-left-side,.sh-header-left-1 .sh-side-button-search,.sh-header-left-2 .sh-side-button-search{border-right:1px solid rgba(0,0,0,0.08);}.sh-header-left-1 .header-social-media,.sh-header-left-1 .sh-side-buttons .sh-table-cell,.sh-header-left-2 .sh-side-buttons .sh-table-cell{border-top:1px solid rgba(0,0,0,0.08);}.sh-header:not(.sh-header-6) .container,.sh-header-top:not(.sh-header-top-6) .container{width:90%!important;max-width:90%!important;}.sh-header-6 .container,.sh-header-top-6 .container{width:100%!important;max-width:100%!important;}.sh-header-right-side,.sh-header-mobile-dropdown,.header-mobile-social-media a,.sh-header .sh-nav>li.menu-item ul,.sh-header-left-side .sh-nav>li.menu-item ul,.sh-header-mobile-dropdown{background-color:#232323!important;}.sh-nav-mobile li:after,.sh-nav-mobile ul:before{background-color:#303030!important;}.header-mobile-social-media a i,.sh-nav-mobile li a,.sh-header .sh-nav>li.menu-item ul a,.sh-header-left-side .sh-nav>li.menu-item ul a{color:#aaaaaa!important;}.sh-nav-mobile .current_page_item>a,.sh-nav-mobile>li a:hover,.sh-header .sh-nav ul,.sh-header .sh-nav>li.menu-item:not(.menu-item-cart) ul a:hover,.sh-header .sh-nav ul.mega-menu-row li.mega-menu-col>a,.sh-header-left-side .sh-nav ul,.sh-header-left-side .sh-nav>li.menu-item:not(.menu-item-cart) ul a:hover,.sh-header-left-side .sh-nav ul.mega-menu-row li.mega-menu-col>a,.sh-header .woocommerce a.remove:hover:before,.sh-header-left-side .woocommerce a.remove:hover:before{color:#ffffff!important;}.header-mobile-social-media,.header-mobile-social-media a,.sh-nav>li.menu-item:not(.menu-item-cart) ul a:hover{border-color:#303030!important;}.sh-nav>li.menu-item:not(.menu-item-cart) ul a:hover,.sh-nav-cart .menu-item-cart .total{border-bottom:1px solid #303030!important;}.sh-nav-cart .menu-item-cart .total{border-top:1px solid #303030!important;}.sh-nav .mega-menu-row>li.menu-item,.sh-nav-cart .menu-item-cart .widget_shopping_cart_content p.buttons a:first-child{border-right:1px solid #303030!important;}#sidebar .widget-item .widget-title{color:#505050;font-size:14px;}#sidebar .widget-item li{border-color:#e3e3e3!important;}.sh-footer{background-size:cover;background-position:50% 50%;}.sh-footer .sh-footer-widgets{background-color:#1f2a2c;color:#e3e3e3;}.sh-footer .sh-footer-widgets .sh-recent-posts-widgets-item-meta a{color:#e3e3e3;}.sh-footer .sh-footer-widgets i:not(.icon-link),.sh-footer .sh-footer-widgets .widget_recent_entries li:before{color:#1f2a2c!important;}.sh-footer .sh-footer-widgets h3{color:#ffffff;font-size:20px;}.sh-footer .sh-footer-widgets ul li,.sh-footer .sh-footer-widgets ul li,.sh-footer .sh-recent-posts-widgets .sh-recent-posts-widgets-item{border-color:rgba(255,255,255,0.10);}.sh-footer .sh-footer-widgets a,.sh-footer .sh-footer-widgets li a,.sh-footer .sh-footer-widgets h6{color:#1f2a2c;}.sh-footer .sh-footer-widgets .product-title,.sh-footer .sh-footer-widgets .woocommerce-Price-amount{color:#1f2a2c!important;}.sh-footer .sh-footer-widgets a:hover,.sh-footer .sh-footer-widgets li a:hover,.sh-footer .sh-footer-widgets h6:hover{color:#1baaf8;}.sh-footer-columns>.widget-item{}.sh-footer .sh-copyrights{background-color:#ffffff;color:#6a6a6a;}.sh-footer .sh-copyrights a{color:#6a6a6a;}.sh-footer .sh-copyrights a:hover{color:#1baaf8!important;}.sh-footer .sh-copyrights-social a{border-left:1px solid rgba(255,255,255,0.15);}.sh-footer .sh-copyrights-social a:last-child{border-right:1px solid rgba(255,255,255,0.15);}@media (max-width: 850px) {.sh-footer .sh-copyrights-social a{border:1px solid rgba(255,255,255,0.15);}}.woocommerce .woocomerce-styling ul.products li{width:50%;}.sh-popover-mini:not(.sh-popover-mini-dark){background-color:#1baaf8;}.sh-popover-mini:not(.sh-popover-mini-dark):before{border-color:transparent transparent #1baaf8 #1baaf8!important;}.sh-titlebar{background-color:#fbfbfb;}.sh-back-to-top{border-radius:100px;}.sh-404{background-image:url();background-color:#3f3f3f;}.sh-section-010716bddaae266e4e80dfc997e8f97f{padding:0px 0px 0px 0px;}.sh-section-overlay-010716bddaae266e4e80dfc997e8f97f{z-index:-1000;background:;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-119d932122e7eb3e60c697260236ec82{padding:0px 0px 0px 0px;background-position:center center;}.sh-section-30780b7c0884c7cb315471a7da965920{padding:80px 0px 80px 0px;background-color:#f9f9f9;}.sh-section-overlay-30780b7c0884c7cb315471a7da965920{z-index:-1000;background:#f9f9f9;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-2e0f2a871b007ce24b547dd7b5c3a12c{padding:0px 15px 10px 15px;background-position:center center;}@media (max-width: 1024px) {.sh-column-2e0f2a871b007ce24b547dd7b5c3a12c{padding:0px 15px 40px 15px;}}#heading-008062d9310b9379fad79b820c948db8{margin:0px 0px 15px 0px;}#heading-008062d9310b9379fad79b820c948db8 .sh-heading-content{}#heading-008062d9310b9379fad79b820c948db8 .sh-heading-content,#heading-008062d9310b9379fad79b820c948db8 .sh-heading-additional-text{}.sh-column-e8beb8b1929999ed92d18ea4b306a70b{}.sh-column-7b75de5c305a49d910357bd58e4baeef{padding:40px 15px 0px 15px;background-position:center center;}@media (max-width: 1024px) {.sh-column-7b75de5c305a49d910357bd58e4baeef{padding:60px 15px 0px 15px;}}#button-62f56b414e06530f911906d0011b5563 .sh-button{background-color:#3f3f3f;color:#ffffff;}#button-62f56b414e06530f911906d0011b5563{margin:0px 0px 15px 0px;text-align:center;}#button-62f56b414e06530f911906d0011b5563:not(.sh-button-style-2) .sh-button:hover{background-color:#666666;}#button-62f56b414e06530f911906d0011b5563.sh-button-style-2 .sh-button:after{background-color:#666666;}#button-62f56b414e06530f911906d0011b5563.sh-button-style-2 .sh-button:hover{}.sh-section-bb0b83de746ce2f58cb0d5d349254202{padding:80px 0px 80px 0px;}.sh-section-overlay-bb0b83de746ce2f58cb0d5d349254202{z-index:-1000;background:#ffffff;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-798e2f379793d7f9d0626b785623f804{}#heading-7a4727cffd9472c5ac582d15917cdea7{margin:0px 0px 35px 0px;}#heading-7a4727cffd9472c5ac582d15917cdea7 .sh-heading-content{color:#505050;}#heading-7a4727cffd9472c5ac582d15917cdea7 .sh-heading-content,#heading-7a4727cffd9472c5ac582d15917cdea7 .sh-heading-additional-text{}.sh-column-798e2f379793d7f9d0626b785623f804{}#text-block-ecf8f1968e9abbdeaa18e3eac66994a7{font-size:18px;margin:0px 0px 15px 0px;}#text-block-ecf8f1968e9abbdeaa18e3eac66994a7 .drop-cap{font-weight:bold;font-size:50px;display:block;float:left;margin:8px 10px 0 0;}.sh-column-798e2f379793d7f9d0626b785623f804{}#empty-space-7cad1eb5966883aa141710afdb6b8c7d{height:60px;}.sh-column-f3ce6742d48208f3f08d09bc7047d5a1{padding:0px 20% 0px 20%;background-position:center center;}@media (max-width: 1024px) {.sh-column-f3ce6742d48208f3f08d09bc7047d5a1{padding:0px 2% 0px 2%;}}.sh-section-6b60dc9e2043efe53db6b9bfc8f9a97c{padding:60px 0px 60px 0px;background-color:#f9f9f9;}@media (max-width: 800px) {.sh-section-6b60dc9e2043efe53db6b9bfc8f9a97c{padding:80px 0px 80px 0px;}}.sh-section-overlay-6b60dc9e2043efe53db6b9bfc8f9a97c{z-index:-1000;background:#f9f9f9;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-6199d1236e936843ff3b1973d4a04b79{padding:0px 15px 0px 30px;background-position:center center;}@media (max-width: 1024px) {.sh-column-6199d1236e936843ff3b1973d4a04b79{padding:20px 15px 20px 30px;}}#iconbox-0b45caf4b263412025cee3e3f30361cd .sh-iconbox-title h3{font-size:16px;}#iconbox-0b45caf4b263412025cee3e3f30361cd.sh-iconbox-left .sh-iconbox-aside{margin-left:7.2px;}#iconbox-0b45caf4b263412025cee3e3f30361cd .sh-iconbox-hover{font-size:36px;}#iconbox-0b45caf4b263412025cee3e3f30361cd.sh-iconbox-left .sh-iconbox-aside{padding-left:66px;}#iconbox-0b45caf4b263412025cee3e3f30361cd .sh-iconbox-hover{color:#b6b6b6;}#iconbox-0b45caf4b263412025cee3e3f30361cd.sh-iconbox-style6 .sh-iconbox-hover{text-shadow:-3px 2px rgba(182,182,182,0.3);}#iconbox-0b45caf4b263412025cee3e3f30361cd:hover .sh-iconbox-hover{color:#1baaf8;}.sh-column-9ff88b70f23d89e1e251eb83f2002a7e{padding:0px 15px 0px 30px;background-position:center center;}@media (max-width: 1024px) {.sh-column-9ff88b70f23d89e1e251eb83f2002a7e{padding:20px 15px 20px 30px;}}#iconbox-c88fde1d4edc143a7dc45825a079524e .sh-iconbox-title h3{font-size:16px;}#iconbox-c88fde1d4edc143a7dc45825a079524e.sh-iconbox-left .sh-iconbox-aside{margin-left:7.2px;}#iconbox-c88fde1d4edc143a7dc45825a079524e .sh-iconbox-hover{font-size:36px;}#iconbox-c88fde1d4edc143a7dc45825a079524e.sh-iconbox-left .sh-iconbox-aside{padding-left:66px;}#iconbox-c88fde1d4edc143a7dc45825a079524e .sh-iconbox-hover{color:#b6b6b6;}#iconbox-c88fde1d4edc143a7dc45825a079524e.sh-iconbox-style6 .sh-iconbox-hover{text-shadow:-3px 2px rgba(182,182,182,0.3);}#iconbox-c88fde1d4edc143a7dc45825a079524e:hover .sh-iconbox-hover{color:#1baaf8;}.sh-column-3532745bf453678ff952459efe434f6c{padding:0px 15px 0px 30px;background-position:center center;}@media (max-width: 1024px) {.sh-column-3532745bf453678ff952459efe434f6c{padding:20px 15px 20px 30px;}}#iconbox-1a755eb90a35d90f44dd3ae79cc7f207 .sh-iconbox-title h3{font-size:16px;}#iconbox-1a755eb90a35d90f44dd3ae79cc7f207.sh-iconbox-left .sh-iconbox-aside{margin-left:7.2px;}#iconbox-1a755eb90a35d90f44dd3ae79cc7f207 .sh-iconbox-hover{font-size:36px;}#iconbox-1a755eb90a35d90f44dd3ae79cc7f207.sh-iconbox-left .sh-iconbox-aside{padding-left:66px;}#iconbox-1a755eb90a35d90f44dd3ae79cc7f207 .sh-iconbox-hover{color:#b6b6b6;}#iconbox-1a755eb90a35d90f44dd3ae79cc7f207.sh-iconbox-style6 .sh-iconbox-hover{text-shadow:-3px 2px rgba(182,182,182,0.3);}#iconbox-1a755eb90a35d90f44dd3ae79cc7f207:hover .sh-iconbox-hover{color:#1baaf8;}.sh-section-a97b800b847224fdf0437bf1b29600bb{padding:80px 0 80px 80px;background-color:#1caaf8;}@media (max-width: 800px) {.sh-section-a97b800b847224fdf0437bf1b29600bb{padding:80px 40px 80px 40px;}}.sh-section-overlay-a97b800b847224fdf0437bf1b29600bb{z-index:-1000;background:#1caaf8;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-bcaf3690a5973cf8ef4b4971717a0a53{padding:0px 0px 0px 0px;background-position:center center;}@media (max-width: 1024px) {.sh-column-bcaf3690a5973cf8ef4b4971717a0a53{padding:0px 0px 0px 0px;}}#iconbox-4896f49b8a6181cae8b3176c43dbe1b9 .sh-iconbox-title h3{color:#ffffff;font-size:32px;}#iconbox-4896f49b8a6181cae8b3176c43dbe1b9.sh-iconbox-left .sh-iconbox-aside{margin-left:15.2px;}#iconbox-4896f49b8a6181cae8b3176c43dbe1b9 .sh-iconbox-hover{font-size:76px;}#iconbox-4896f49b8a6181cae8b3176c43dbe1b9 .sh-iconbox-hover{color:#ffffff;}#iconbox-4896f49b8a6181cae8b3176c43dbe1b9.sh-iconbox-style6 .sh-iconbox-hover{text-shadow:-3px 2px rgba(255,255,255,0.3);}#iconbox-4896f49b8a6181cae8b3176c43dbe1b9 .sh-iconbox-content{color:#e1edef;}.sh-column-284a27a081bd072167ffbfe866d062aa{padding:0px 0px 0px 10%;background-position:center center;}@media (max-width: 1024px) {.sh-column-284a27a081bd072167ffbfe866d062aa{padding:40px 20px 40px 20px;}}.sh-column-bc13f43812ccbec95c823ec6a5371b7b{padding:0px 0px 0px 60px;background-position:center center;}@media (max-width: 1024px) {.sh-column-bc13f43812ccbec95c823ec6a5371b7b{padding:0px 15px 0px 15px;}}#button-b6eb2bae4d7613b4e2acb3416eb2fff1 .sh-button{border-radius:35px;background-color:rgba(255,255,255,0);color:#ffffff;border:2px solid #ffffff;}#button-b6eb2bae4d7613b4e2acb3416eb2fff1{margin:0px 0px 0px 0px;}#button-b6eb2bae4d7613b4e2acb3416eb2fff1:not(.sh-button-style-2) .sh-button:hover{}#button-b6eb2bae4d7613b4e2acb3416eb2fff1.sh-button-style-2 .sh-button:after{}#button-b6eb2bae4d7613b4e2acb3416eb2fff1.sh-button-style-2 .sh-button:hover{}@media (max-width: 800px) {#button-b6eb2bae4d7613b4e2acb3416eb2fff1{text-align:center;}}.sh-section-bdb56b2886398ce368b8468e86767121{padding:80px 0 80px 80px;background-color:#0c91d8;}@media (max-width: 800px) {.sh-section-bdb56b2886398ce368b8468e86767121{padding:80px 0px 80px 0px;}}.sh-section-overlay-bdb56b2886398ce368b8468e86767121{z-index:-1000;background:#0c91d8;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-03f74619b649fa0d358d1aab76ed0857{padding:0px 0px 0px 0px;background-position:center center;}@media (max-width: 1024px) {.sh-column-03f74619b649fa0d358d1aab76ed0857{padding:30px 0px 30px 0px;}}#iconbox-82cdb5c9b930c924325204cc1396f488 .sh-iconbox-title h3{color:#ffffff;font-size:32px;}#iconbox-82cdb5c9b930c924325204cc1396f488.sh-iconbox-left .sh-iconbox-aside{margin-left:15.2px;}#iconbox-82cdb5c9b930c924325204cc1396f488 .sh-iconbox-hover{font-size:76px;}#iconbox-82cdb5c9b930c924325204cc1396f488 .sh-iconbox-hover{color:#ffffff;}#iconbox-82cdb5c9b930c924325204cc1396f488.sh-iconbox-style6 .sh-iconbox-hover{text-shadow:-3px 2px rgba(255,255,255,0.3);}#iconbox-82cdb5c9b930c924325204cc1396f488 .sh-iconbox-content{color:#e1edef;}.sh-column-9cbe9b7ac02192ec818d36f3e1a69f51{padding:0px 0px 0px 0px;background-position:center center;}@media (max-width: 1024px) {.sh-column-9cbe9b7ac02192ec818d36f3e1a69f51{padding:40px 10% 40px 10%;}}.sh-column-77ac194946865bfeeeaa31dd8473d47a{padding:0px 0px 0px 60px;background-position:center center;}@media (max-width: 1024px) {.sh-column-77ac194946865bfeeeaa31dd8473d47a{padding:0px 0px 0px 0px;}}#button-eb7184f01e525251c77c704b5edadbe8 .sh-button{border-radius:35px;background-color:rgba(255,255,255,0);color:#ffffff;border:2px solid #ffffff;}#button-eb7184f01e525251c77c704b5edadbe8{margin:0px 0px 0px 0px;}#button-eb7184f01e525251c77c704b5edadbe8:not(.sh-button-style-2) .sh-button:hover{}#button-eb7184f01e525251c77c704b5edadbe8.sh-button-style-2 .sh-button:after{}#button-eb7184f01e525251c77c704b5edadbe8.sh-button-style-2 .sh-button:hover{}@media (max-width: 800px) {#button-eb7184f01e525251c77c704b5edadbe8{text-align:center;}}.sh-section-d4f3b84594f646b1d12ec394970b7335{padding:80px 0px 60px 0px;}.sh-section-overlay-d4f3b84594f646b1d12ec394970b7335{z-index:-1000;background:#ffffff;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-333fa244e055e4f7ac2d8557251ef276{padding:0px 8% 0px 8%;background-position:center center;}@media (max-width: 1024px) {.sh-column-333fa244e055e4f7ac2d8557251ef276{padding:0px 8% 60px 8%;}}#text-block-de7024c6da8cbf10384ac1bf1a8f40f2{color:#b5b5b5;margin:0px 0px 15px 0px;}#text-block-de7024c6da8cbf10384ac1bf1a8f40f2 .drop-cap{font-weight:bold;font-size:50px;display:block;float:left;margin:8px 10px 0 0;}.sh-column-04601bd9b665015186481d31f3260a26{padding:0px 40px 0px 40px;background-position:center center;}#heading-52c3dcb68807240188d261d85f674e22{margin:0px 0px 5px 0px;}#heading-52c3dcb68807240188d261d85f674e22 .sh-heading-content{font-weight:400!important;color:#8d8d8d;}#heading-52c3dcb68807240188d261d85f674e22 .sh-heading-content,#heading-52c3dcb68807240188d261d85f674e22 .sh-heading-additional-text{}#heading-animated-4729879ee17dcd13c4596aeb33a5ded2{margin:0px 0px 25px 0px;}#heading-animated-4729879ee17dcd13c4596aeb33a5ded2 .sh-heading-animated-content{text-align:left;}#heading-animated-4729879ee17dcd13c4596aeb33a5ded2 .sh-heading-animated-typed,#heading-animated-4729879ee17dcd13c4596aeb33a5ded2 .typed-cursor{color:#505050;}#heading-animated-4729879ee17dcd13c4596aeb33a5ded2 .sh-heading-animated-fixed{color:#505050;}#text-block-219ae828898fdf9caa89b2f16ca1b1a3{margin:0px 0px 30px 0px;}#text-block-219ae828898fdf9caa89b2f16ca1b1a3 .drop-cap{font-weight:bold;font-size:50px;display:block;float:left;margin:8px 10px 0 0;}#button-78f8d699989b8cf6bd077743dd4cb4b5 .sh-button{border-radius:35px;background-color:#e8e8e8;color:#505050;}#button-78f8d699989b8cf6bd077743dd4cb4b5{margin:0px 0px 15px 0px;}#button-78f8d699989b8cf6bd077743dd4cb4b5:not(.sh-button-style-2) .sh-button:hover{background-color:#1baaf8;color:#ffffff;}#button-78f8d699989b8cf6bd077743dd4cb4b5.sh-button-style-2 .sh-button:after{background-color:#1baaf8;}#button-78f8d699989b8cf6bd077743dd4cb4b5.sh-button-style-2 .sh-button:hover{color:#ffffff;}.sh-section-1b9ed56b0af49011a158b69066112777{padding:0px 0px 0px 0px;}.sh-section-overlay-1b9ed56b0af49011a158b69066112777{z-index:-1000;background:#ffffff;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-f64a562255762dd39e778601c9bd3c09{padding:0px 0px 0px 0px;background-position:center center;}#iconbox-slider-f462076d10c0acf7975ada9fcda6e14f .sh-iconbox-slider-tab.slick-current .sh-iconbox-slider-tab-content i{color:#1baaf8!important;}#iconbox-slider-f462076d10c0acf7975ada9fcda6e14f .sh-iconbox-slider-tab.slick-current:after{background-color:#1baaf8!important;}#iconbox-slider-f462076d10c0acf7975ada9fcda6e14f .sh-iconbox-slider-item p,#iconbox-slider-f462076d10c0acf7975ada9fcda6e14f .sh-iconbox-slider-item p *{color:#ffffff!important;opacity:1;}.sh-section-a080e70f2faff2db39cd4e67ba7b5449{padding:80px 0px 40px 0px;}.sh-section-overlay-a080e70f2faff2db39cd4e67ba7b5449{z-index:-1000;background:#ffffff;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-798e2f379793d7f9d0626b785623f804{}#heading-bf05da737f2c2c74b8489350a7584c07{margin:0px 0px 50px 0px;}#heading-bf05da737f2c2c74b8489350a7584c07 .sh-heading-content{color:#505050;}#heading-bf05da737f2c2c74b8489350a7584c07 .sh-heading-content,#heading-bf05da737f2c2c74b8489350a7584c07 .sh-heading-additional-text{}.sh-column-bb101b1a1fe07dd2837a224c45e227fc{background-position:center center;}#text-block-c415a3b62a72065a4d70871deee097b9{font-size:24px;margin:0px 0px 15px 0px;}#text-block-c415a3b62a72065a4d70871deee097b9 .drop-cap{font-weight:bold;font-size:50px;display:block;float:left;margin:8px 10px 0 0;}.sh-column-1c51e75b7a4fbe609181d853eaaf43c9{padding:0px 30px 0px 30px;background-position:center center;}#single-image-f3b0b691c10ef32752d5ae924483d660{text-align:center;}.sh-section-a0836b66efd75a87fddae425cf1142e8{padding:40px 0px 40px 0px;}.sh-section-overlay-a0836b66efd75a87fddae425cf1142e8{z-index:-1000;background:#ffffff;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-64fea0bc353eb2c9fb171c01e334cc7f{background-position:center center;}#single-image-38648c0cfa9526d3c26134743523bb70{text-align:center;}.sh-column-565bc643151c8690c9eca4039287bf63{background-position:center center;}#text-block-f0965bb21514cc4de1dc8184d5e7ff35{font-size:18px;margin:0px 0px 15px 0px;}#text-block-f0965bb21514cc4de1dc8184d5e7ff35 .drop-cap{font-weight:bold;font-size:50px;display:block;float:left;margin:8px 10px 0 0;}.sh-section-eb7f7ceaba6594fb2bcc6706789eead7{padding:30px 0px 80px 0px;}.sh-section-overlay-eb7f7ceaba6594fb2bcc6706789eead7{z-index:-1000;background:#ffffff;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-ebed0bdb1b4a826b74e4756b98325b54{background-position:center center;}#text-block-cb5468acbbcce75c39e0b2021f711900{font-size:18px;margin:0px 0px 15px 0px;}#text-block-cb5468acbbcce75c39e0b2021f711900 .drop-cap{font-weight:bold;font-size:50px;display:block;float:left;margin:8px 10px 0 0;}.sh-column-c3b81c30aef8fffd08fc74c26c133e84{background-position:center center;}#single-image-dfc17485751d66da0461bc53b92917bc{text-align:center;}.sh-section-5c583886b7974da3b7b38b0a0ee14887{padding:80px 0px 80px 0px;background-color:#f9f9f9;}.sh-section-overlay-5c583886b7974da3b7b38b0a0ee14887{z-index:-1000;background:#f9f9f9;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-943922311f418a82aafa0a45a9670086{}#heading-1176b28b39f1dd59ba60da7d80385ea6{margin:0px 0px 35px 0px;}#heading-1176b28b39f1dd59ba60da7d80385ea6 .sh-heading-content{color:#505050;}#heading-1176b28b39f1dd59ba60da7d80385ea6 .sh-heading-content,#heading-1176b28b39f1dd59ba60da7d80385ea6 .sh-heading-additional-text{}.sh-column-ab099684073da7c7f41a8cd47c1c25c3{padding:0px 25% 0px 25%;background-position:center center;}@media (max-width: 1024px) {.sh-column-ab099684073da7c7f41a8cd47c1c25c3{padding:0px 5% 0px 5%;}}#text-block-18c05575410611791353b826776e151b{margin:0px 0px 15px 0px;}#text-block-18c05575410611791353b826776e151b .drop-cap{font-weight:bold;font-size:50px;display:block;float:left;margin:8px 10px 0 0;}.sh-section-d80a09f91045b4efd1d6747cdf778c61{padding:80px 0px 80px 0px;;}.sh-section-overlay-d80a09f91045b4efd1d6747cdf778c61{z-index:-1000;background:#ffffff;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-798e2f379793d7f9d0626b785623f804{}#heading-30e4bc4dab7e7ebf379cbc4ed31e7786{margin:0px 0px 35px 0px;}#heading-30e4bc4dab7e7ebf379cbc4ed31e7786 .sh-heading-content{color:#505050;}#heading-30e4bc4dab7e7ebf379cbc4ed31e7786 .sh-heading-content,#heading-30e4bc4dab7e7ebf379cbc4ed31e7786 .sh-heading-additional-text{}.sh-column-783b30d3c54e1020dbc9d96c58ca0045{padding:0px 40px 0px 40px;background-position:center center;}#team-e7d400581a13b1acfe650d196d36d95f .sh-team-role{color:#1caaf8!important;}#team-e7d400581a13b1acfe650d196d36d95f.sh-team-social-overlay .sh-team-icons{background-color:#1baaf8;}.sh-column-d47dd715bc860ca071c6809ccc0fd700{padding:0px 40px 0px 40px;background-position:center center;}#team-fe59295cbb42789aa8739023a74223b8 .sh-team-role{color:#1caaf8!important;}#team-fe59295cbb42789aa8739023a74223b8.sh-team-social-overlay .sh-team-icons{background-color:#1baaf8;}.sh-column-ee113c1a0e93d8b2898691b816b2bfb7{padding:0px 40px 0px 40px;background-position:center center;}#team-4d186878c496835fd32ed565ade0d7e3 .sh-team-role{color:#1caaf8!important;}#team-4d186878c496835fd32ed565ade0d7e3.sh-team-social-overlay .sh-team-icons{background-color:#1baaf8;}.sh-section-c6541236b85530319bc6d5e75eaea0b2{padding:80px 0px 80px 0px;background-color:#f9f9f9;}.sh-section-overlay-c6541236b85530319bc6d5e75eaea0b2{z-index:-1000;background:#f9f9f9;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-798e2f379793d7f9d0626b785623f804{}#heading-b1e455a0e8e8b3589253ef19e6fedf3d{margin:0px 0px 35px 0px;}#heading-b1e455a0e8e8b3589253ef19e6fedf3d .sh-heading-content{color:#505050;}#heading-b1e455a0e8e8b3589253ef19e6fedf3d .sh-heading-content,#heading-b1e455a0e8e8b3589253ef19e6fedf3d .sh-heading-additional-text{}.sh-column-0c5284ce09a7e4d623a39446d105b99a{padding:0px 40px 0px 40px;background-position:center center;}#team-e7a0d6a84416ecb5ed3405c8af802f2d .sh-team-role{color:#8d8d8d!important;}#team-e7a0d6a84416ecb5ed3405c8af802f2d.sh-team-social-overlay .sh-team-icons{background-color:#1baaf8;}.sh-column-c3e424972cbea173429a9f936e0a6c03{padding:0px 40px 0px 40px;background-position:center center;}#team-dee70c3c117cffccf149d9f3b6097a9f .sh-team-role{color:#8d8d8d!important;}#team-dee70c3c117cffccf149d9f3b6097a9f.sh-team-social-overlay .sh-team-icons{background-color:#1baaf8;}.sh-column-ee5acfa04b56e56499c5bd763948367f{padding:0px 40px 0px 40px;background-position:center center;}#team-01ca106bbf1e8ac1576fd1d64877542d .sh-team-role{color:#8d8d8d!important;}#team-01ca106bbf1e8ac1576fd1d64877542d.sh-team-social-overlay .sh-team-icons{background-color:#1baaf8;}.sh-section-9449129b90edb3bb1c9712c1699383dc{padding:60px 8% 60px 8%;z-index:1000;background-color:#333333;}.sh-section-overlay-9449129b90edb3bb1c9712c1699383dc{z-index:-1000;background:#333333;position:absolute;top:0;bottom:0;left:0;right:0;}.sh-section-overlay-front{z-index:0;}.sh-column-96890fc11d7d6a3d94b57d1f7a366c4d{background-position:center center;}#icon-group-ac7dabef5d156be5043791709bab5600 .sh-icon-group-item i{color:#ffffff;}#empty-space-eb761fe7b5422e3e9f33004f93a0ae58{height:30px;}#text-block-9df9f553d260e524a58485854e39b793{color:#b7b7b7;margin:0px 0px 0px 0px;}#text-block-9df9f553d260e524a58485854e39b793 .drop-cap{font-weight:bold;font-size:50px;display:block;float:left;margin:8px 10px 0 0;}</style>
+<link rel="stylesheet" id="pixeden-icons-css" href="./pe-icon-7-stroke.css" type="text/css" media="all">
+<link rel="stylesheet" id="blockcat-icons-css" href="./blockcat-font.css" type="text/css" media="all">
+<link rel="stylesheet" id="jevelin-fonts-css" href="./css" type="text/css" media="all">
+<link rel="stylesheet" id="jevelin-child-style-css" href="./style(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="jevelin-swipebox-css-css" href="./swipebox.min.css" type="text/css" media="all">
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" src="./jquery-migrate.min.js"></script>
+<script type="text/javascript" src="./jquery.cookie.js"></script>
+<script type="text/javascript" src="./scripts.js"></script>
+<script type="text/javascript" src="./jquery.swipebox.min.js"></script>
+<link rel="https://api.w.org/" href="https://blockcat.io/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blockcat.io/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blockcat.io/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 4.8">
+<link rel="canonical" href="https://blockcat.io/">
+<link rel="shortlink" href="https://blockcat.io/">
+<link rel="alternate" type="application/json+oembed" href="https://blockcat.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://blockcat.io/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F&amp;format=xml">
+ 
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-100087538-1', 'auto');
+  ga('send', 'pageview');
+</script>
+ 
+<script type="text/javascript">
+			    	</script>
+<script async="" src="./hotjar-517671.js"></script></head>
+<body class="home page-template-default page page-id-430">
+<div id="page-container" class="">
+<header class="primary-mobile primary-mobile-light" style="height: 99px;">
+<div id="header-mobile" class="sh-header-mobile">
+<div class="sh-header-mobile-navigation">
+<div class="container">
+<div class="sh-table">
+ 
+<div class="sh-table-cell">
+<nav id="header-navigation-mobile" class="header-standard-position">
+<div class="sh-nav-container">
+<ul class="sh-nav sf-js-enabled" style="touch-action: pan-y;">
+<li class="menu-item sh-nav-dropdown">
+<a href="https://blockcat.io/#">
+<div class="sh-table-full">
+<div class="sh-table-cell">
+<span class="c-hamburger c-hamburger--htx">
+<span>Toggle menu</span>
+</span>
+</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<nav class="sh-header-mobile-dropdown" style="display: none;">
+<div class="container sh-nav-container">
+<ul class="sh-nav-mobile">
+<li id="menu-item-1880" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1880"><a href="https://blockscat.github.io/token/#token-sale">Token Sale</a></li>
+<li id="menu-item-741" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-741"><a href="https://blockscat.github.io/token/#aboutus">About Us</a></li>
+<li id="menu-item-970" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-970"><a href="https://blockscat.github.io/token/whitepaper.pdf">Whitepaper</a></li>
+<li id="menu-item-1567" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1567"><a href="https://medium.com/@blockcat">Blog</a></li>
+<li id="menu-item-737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-737"><a href="https://blockscat.github.io/token/#newsletter">Newsletter</a></li>
+<li id="menu-item-738" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-738"><a href="https://blockscat.github.io/token/#team">Team</a></li>
+<li id="menu-item-739" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-739"><a href="https://slack.blockcat.io/">Join Slack</a></li>
+</ul>
+</div>
+<div class="container sh-nav-container">
+</div>
+<div class="header-mobile-social-media">
+<a href="https://twitter.com/blockcatio" target="_blank" class="social-media-twitter">
+<i class="icon-social-twitter"></i>
+</a><a href="https://slack.blockcat.io/" target="_blank" class="social-media-wordpress">
+<i class="fa fa-slack"></i>
+</a><div class="sh-clear"></div> </div>
+</nav>
+</div>
+</header>
+<header class="primary-desktop primary-desktop-light" style="height: 100px;">
+<div class="sh-header-height">
+<div class="sh-header sh-header-1 sh-header-8">
+<div class="container">
+<div class="sh-table">
+ 
+ 
+ 
+<div class="sh-table-cell">
+<nav id="header-navigation" class="header-standard-position">
+<div class="sh-nav-container"><ul id="menu-menu-2" class="sh-nav sf-js-enabled" style="float: left; touch-action: pan-y;"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1880"><a href="https://blockscat.github.io/token/#token-sale">Token Sale</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-741"><a href="https://blockscat.github.io/token/#aboutus">About Us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-970"><a href="https://blockscat.github.io/token/whitepaper.pdf">Whitepaper</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1567"><a href="https://medium.com/@blockcat">Blog</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-737"><a href="https://blockscat.github.io/token/#newsletter">Newsletter</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-738"><a href="https://blockscat.github.io/token/#team">Team</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-739"><a href="https://slack.blockcat.io/">Join Slack</a></li>
+</ul><ul class="sh-nav sf-js-enabled" style="touch-action: pan-y;">
+<li class="menu-item sh-nav-social sh-nav-special">
+<a href="https://twitter.com/blockcatio" target="_blank" class="social-media-twitter">
+<i class="icon-social-twitter"></i>
+</a><a href="https://slack.blockcat.io/" target="_blank" class="social-media-wordpress">
+<i class="fa fa-slack"></i>
+</a><div class="sh-clear"></div>
+</li></ul></div> </nav>
+</div>
+</div>
+</div>
+<div id="header-search" class="sh-header-search">
+<div class="sh-table-full">
+<div class="sh-table-cell">
+<div class="line-test">
+<div class="container">
+<form method="get" class="sh-header-search-form" action="https://blockcat.io/">
+<input type="search" class="sh-header-search-input" placeholder="Search Here.." value="" name="s" required="">
+<button type="submit" class="sh-header-search-submit">
+<i class="icon-magnifier"></i>
+</button>
+<div class="sh-header-search-close close-header-search">
+<i class="ti-close"></i>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div id="wrapper">
+<div class="content-container sh-page-layout-full">
+<div id="content" class="page-content">
+<div class="fw-page-builder-content">
+<section class="sh-section sh-section-010716bddaae266e4e80dfc997e8f97f fw-main-row to-fold sh-section-visibility-everywhere">
+<div class="sh-section-container container-fluid">
+<div class="fw-row">
+<div class="sh-column sh-column-119d932122e7eb3e60c697260236ec82 fw-col-xs-12">
+<div class="sh-column-wrapper">
+<div class="sh-output-html">
+<div class="to-fold">
+<div class="center-align" style:"-webkit-font-smoothing:="" antialiased!important;"="">
+<div id="main-header-spacer"></div>
+<img src="./blockcat_logo.png" id="blockcat-logo">
+<div class="lander-heading lander-heading-big">BlockCAT -
+ Token Sale July&nbsp;15</div>
+<div class="desktop-header-text lander-heading lander-heading-small">You shouldn't have to be an expert to use smart contracts</div>
+<div class="mobile-header-text">
+<div class="lander-heading lander-heading-small">You shouldn't have to be an expert</div><div class="lander-heading lander-heading-small">to use smart contracts</div>
+</div>
+<a class="btn btn-default btn-lg" id="more-info-button" href="https://blockscat.github.io/token/#token-sale">Token Sale</a>
+</div>
+</div></div>
+<div class="sh-output-js">
+	<script type="text/javascript">
+			</script>
+</div>	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-30780b7c0884c7cb315471a7da965920 fw-main-row sh-section-visibility-everywhere" id="token-sale">
+	
+	
+	<div class="sh-section-container container">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-2e0f2a871b007ce24b547dd7b5c3a12c fw-col-xs-12 sh-column-mobile-padding">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-heading" id="heading-008062d9310b9379fad79b820c948db8">
+	<h1 class="sh-heading-content size-default text-center">
+		The BlockCAT Token Sale Ends in	</h1>
+</div>	</div>
+</div>
+</div>
+
+<div class="fw-row">
+	
+<div class="sh-column sh-column-e8beb8b1929999ed92d18ea4b306a70b fw-col-xs-12">
+
+	
+	<div class="sh-column-wrapper">
+		
+<script type="text/javascript">
+	jQuery(document).ready(function ($) {
+		$("#countdown-c716debdfef25732312c54d44c631231").countdown('2017/07/19 13:00', function(event) {
+			var $this = $(this).html(event.strftime(''
+			+ '<div class="weeks"><span>%w</span><div>Weeks</div></div>'
+			+ '<div class="days"><span>%d</span><div>Days</div></div>'
+			+ '<div class="sh-coundtdown-container"></div>'
+			+ '<div class="hours"><span>%H</span><div>Hours</div></div>'
+			+ '<div class="minutes"><span>%M</span><div>Minutes</div></div>'
+			+ '<div class="seconds"><span>%S</span><div>Seconds</div></div>'));
+		});
+	});
+</script>
+
+<div id="countdown-c716debdfef25732312c54d44c631231" class="sh-countdown sh-countdown-style2 sh-countdown-medium sh-countdown-alignment-center"><div class="weeks"><span>00</span><div>Weeks</div></div><div class="days"><span>04</span><div>Days</div></div><div class="sh-coundtdown-container"></div><div class="hours"><span>17</span><div>Hours</div></div><div class="minutes"><span>36</span><div>Minutes</div></div><div class="seconds"><span>50</span><div>Seconds</div></div></div>
+	</div>
+</div>
+</div>
+
+<div class="fw-row">
+	
+<div class="sh-column sh-column-7b75de5c305a49d910357bd58e4baeef fw-col-xs-12 sh-column-mobile-padding">
+
+	
+	<div class="sh-column-wrapper">
+		
+		
+		<span style="font-size:20pt"><center>ETH address: <br><b>0x12c43260eABb5429eF3006dEb31F2510e4C3BeD4</b></center></span>
+<!--<div id="button-62f56b414e06530f911906d0011b5563" class="sh-button-container sh-button-style-1">
+	<a href="https://blockcat.io/tokensale" target="_self" class="sh-button sh-button-medium">
+
+		
+					<span class="sh-button-text">
+				More Info			</span>
+		
+		
+	</a>
+	</div>	-->
+	
+	
+	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-bb0b83de746ce2f58cb0d5d349254202 fw-main-row sh-section-visibility-everywhere" id="aboutus">
+	
+	
+	<div class="sh-section-container container">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-798e2f379793d7f9d0626b785623f804 fw-col-xs-12">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-heading" id="heading-7a4727cffd9472c5ac582d15917cdea7">
+	<h1 class="sh-heading-content size-xl text-center">
+		What is BlockCAT?	</h1>
+</div>	</div>
+</div>
+</div>
+
+<div class="fw-row">
+	
+<div class="sh-column sh-column-798e2f379793d7f9d0626b785623f804 fw-col-xs-12">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div id="text-block-ecf8f1968e9abbdeaa18e3eac66994a7" class="sh-text-block">
+	<p style="text-align: center;">BlockCAT lets anyone create, manage, and deploy smart contracts on the Ethereum blockchain with just a few clicks. No programming required.</p></div>	</div>
+</div>
+</div>
+
+<div class="fw-row">
+	
+<div class="sh-column sh-column-798e2f379793d7f9d0626b785623f804 fw-col-xs-12">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-empty-space" id="empty-space-7cad1eb5966883aa141710afdb6b8c7d"></div>	</div>
+</div>
+</div>
+
+<div class="fw-row">
+	
+<div class="sh-column sh-column-f3ce6742d48208f3f08d09bc7047d5a1 fw-col-xs-12 sh-column-mobile-padding">
+
+	
+	<div class="sh-column-wrapper">
+		<div class="sh-output-html">
+	<style>
+
+.codegena{
+ position:relative;
+ width:100%;
+ height:0;
+ padding-top:0px;
+ padding-left:150px;
+ padding-right:150px;
+ padding-bottom:56.27198%;
+}
+.codegena iframe {
+ position:absolute;
+ top:0;
+ left: 0;
+ width:100%;
+ height:100%;
+}
+</style>
+<div class="codegena"><iframe src="./uTcPlgq_dC4.html" frameborder="0" allowfullscreen="allowfullscreen" modestbranding="1" controls="2"></iframe></div><div style="font-size: 0.8em"></div>
+	</div>
+</div>
+</div>
+
+	</div>
+</div></section>
+
+<section class="sh-section sh-section-6b60dc9e2043efe53db6b9bfc8f9a97c fw-main-row sh-section-visibility-everywhere">
+	
+	
+	<div class="sh-section-container container">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-6199d1236e936843ff3b1973d4a04b79 fw-col-xs-12 fw-col-sm-4 sh-column-mobile-padding">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-iconbox sh-iconbox-style2 sh-iconbox-left" id="iconbox-0b45caf4b263412025cee3e3f30361cd">
+
+	
+		<div class="sh-iconbox-icon">
+			<div class="sh-iconbox-icon-shape sh-iconbox-square">
+				<i class="sh-iconbox-hover ti-bolt"></i>
+
+							</div>
+		</div>
+
+		<div class="sh-iconbox-aside">
+			<div class="sh-iconbox-title">
+									<h3>Fast</h3>
+							</div>
+			<div class="sh-iconbox-seperator"></div>
+			<div class="sh-iconbox-content">
+				<p>Deploy pre-built smart contracts in seconds, or build your own with just a few clicks.</p>			</div>
+		</div>
+
+	</div>	</div>
+</div>
+
+<div class="sh-column sh-column-9ff88b70f23d89e1e251eb83f2002a7e fw-col-xs-12 fw-col-sm-4 sh-column-mobile-padding">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-iconbox sh-iconbox-style2 sh-iconbox-left" id="iconbox-c88fde1d4edc143a7dc45825a079524e">
+
+	
+		<div class="sh-iconbox-icon">
+			<div class="sh-iconbox-icon-shape sh-iconbox-square">
+				<i class="sh-iconbox-hover ti-lock"></i>
+
+							</div>
+		</div>
+
+		<div class="sh-iconbox-aside">
+			<div class="sh-iconbox-title">
+									<h3>Safe</h3>
+							</div>
+			<div class="sh-iconbox-seperator"></div>
+			<div class="sh-iconbox-content">
+				<p>All of our smart contracts are thoroughly tested and audited by security experts to minimize risk.</p>			</div>
+		</div>
+
+	</div>	</div>
+</div>
+
+<div class="sh-column sh-column-3532745bf453678ff952459efe434f6c fw-col-xs-12 fw-col-sm-4 sh-column-mobile-padding">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-iconbox sh-iconbox-style2 sh-iconbox-left" id="iconbox-1a755eb90a35d90f44dd3ae79cc7f207">
+
+	
+		<div class="sh-iconbox-icon">
+			<div class="sh-iconbox-icon-shape sh-iconbox-square">
+				<i class="sh-iconbox-hover ti-money"></i>
+
+							</div>
+		</div>
+
+		<div class="sh-iconbox-aside">
+			<div class="sh-iconbox-title">
+									<h3>Cost-Effective</h3>
+							</div>
+			<div class="sh-iconbox-seperator"></div>
+			<div class="sh-iconbox-content">
+				<p>Programmers are expensive. BlockCAT makes professionally-made smart contracts affordable.</p>			</div>
+		</div>
+
+	</div>	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-a97b800b847224fdf0437bf1b29600bb fw-main-row sh-section-visibility-everywhere" id="newsletter">
+	
+	
+	<div class="sh-section-container container-fluid section-justify-height">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-bcaf3690a5973cf8ef4b4971717a0a53 fw-col-xs-12 fw-col-sm-4 newsletter-button-col sh-column-mobile-padding" style="height: 75px;">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-iconbox sh-iconbox-style23 sh-iconbox-left" id="iconbox-4896f49b8a6181cae8b3176c43dbe1b9">
+
+	
+		<div class="sh-iconbox-icon">
+			<div class="sh-iconbox-icon-shape sh-iconbox-circle">
+				<i class="sh-iconbox-hover ti-email"></i>
+
+							</div>
+		</div>
+
+		<div class="sh-iconbox-aside">
+			<div class="sh-iconbox-title">
+									<h3>Mailing List</h3>
+							</div>
+			<div class="sh-iconbox-seperator"></div>
+			<div class="sh-iconbox-content">
+				<p>Get updates</p>			</div>
+		</div>
+
+	</div>	</div>
+</div>
+
+<div class="sh-column sh-column-284a27a081bd072167ffbfe866d062aa fw-col-xs-12 fw-col-sm-4 newsletter-button-col sh-column-mobile-padding" style="height: 75px;">
+
+	
+	<div class="sh-column-wrapper">
+		<div class="sh-output-html">
+	<div id="mc_embed_signup">
+<form action="https://blockcat.us16.list-manage.com/subscribe/post?u=2f556f1dda3c570b3b7692ed9&amp;id=e7e83d0331" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+    <div id="mc_embed_signup_scroll">
+		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
+    	<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    	<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2f556f1dda3c570b3b7692ed9_e7e83d0331" tabindex="-1" value=""></div>
+    </div>
+</form>
+</div></div>
+	</div>
+</div>
+
+<div class="sh-column sh-column-bc13f43812ccbec95c823ec6a5371b7b fw-col-xs-12 fw-col-sm-4 newsletter-button-col sh-column-mobile-padding" style="height: 75px;">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div id="button-b6eb2bae4d7613b4e2acb3416eb2fff1" class="sh-button-container sh-button-style-2">
+	<a href="https://blockcat.io/#" target="_self" class="sh-button sh-button-medium sh-button-icon-right">
+
+					<span class="sh-button-icon">
+				<i class="ti-control-forward"></i>
+			</span>
+		
+					<span class="sh-button-text">
+				Subscribe			</span>
+		
+		
+	</a>
+	</div>	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-bdb56b2886398ce368b8468e86767121 fw-main-row slack sh-section-visibility-everywhere" id="slack">
+	
+	
+	<div class="sh-section-container container-fluid section-justify-height">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-03f74619b649fa0d358d1aab76ed0857 fw-col-xs-12 fw-col-sm-4 sh-column-mobile-padding" style="height: 75px;">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-iconbox sh-iconbox-style23 sh-iconbox-left" id="iconbox-82cdb5c9b930c924325204cc1396f488">
+
+	
+		<div class="sh-iconbox-icon">
+			<div class="sh-iconbox-icon-shape sh-iconbox-circle">
+				<i class="sh-iconbox-hover fa fa-slack"></i>
+
+							</div>
+		</div>
+
+		<div class="sh-iconbox-aside">
+			<div class="sh-iconbox-title">
+									<h3>Slack</h3>
+							</div>
+			<div class="sh-iconbox-seperator"></div>
+			<div class="sh-iconbox-content">
+				<p>Join the Conversation</p>			</div>
+		</div>
+
+	</div>	</div>
+</div>
+
+<div class="sh-column sh-column-9cbe9b7ac02192ec818d36f3e1a69f51 fw-col-xs-12 fw-col-sm-4 sh-column-mobile-padding" style="height: 75px;">
+
+	
+	<div class="sh-column-wrapper">
+			</div>
+</div>
+
+<div class="sh-column sh-column-77ac194946865bfeeeaa31dd8473d47a fw-col-xs-12 fw-col-sm-4 sh-column-mobile-padding" style="height: 75px;">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div id="button-eb7184f01e525251c77c704b5edadbe8" class="sh-button-container sh-button-style-2">
+	<a href="https://slack.blockcat.io/" target="_self" class="sh-button sh-button-medium sh-button-icon-right">
+
+					<span class="sh-button-icon">
+				<i class="ti-control-forward"></i>
+			</span>
+		
+					<span class="sh-button-text">
+				Get Invited			</span>
+		
+		
+	</a>
+	</div>	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-d4f3b84594f646b1d12ec394970b7335 fw-main-row sh-section-visibility-everywhere">
+	
+	
+	<div class="sh-section-container container-fluid">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-333fa244e055e4f7ac2d8557251ef276 fw-col-xs-12 fw-col-sm-6 sh-column-mobile-padding">
+
+	
+	<div class="sh-column-wrapper">
+		<div class="sh-output-html">
+	<img src="./PhoneDemo-full.gif" width="65%" style="display: block; margin: 0 auto;"></div>
+
+<div id="text-block-de7024c6da8cbf10384ac1bf1a8f40f2" class="sh-text-block">
+	<p style="text-align: center;"><span style="font-size: 10px;">*Alpha Version</span></p></div>	</div>
+</div>
+
+<div class="sh-column sh-column-04601bd9b665015186481d31f3260a26 fw-col-xs-12 fw-col-sm-6 center-vertically-right">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-heading" id="heading-52c3dcb68807240188d261d85f674e22">
+	<h2 class="sh-heading-content size-m text-left">
+		Meet BlockCAT	</h2>
+</div>
+<script>
+jQuery(document).ready(function ($) {
+	$("#heading-animated-4729879ee17dcd13c4596aeb33a5ded2 .sh-heading-animated-typed").typed({
+		strings: ["Delayed Payments","Escrows","Auctions","Polls","Safe Remote Purchases","Crowdfunding","Proof of Existence","Prediction Markets","Joint Transactions","Payment Gateways", ],
+		contentType: 'html',
+		typeSpeed: 0,
+		loop: true,
+		startDelay: 300,
+		typeSpeed: 80,
+		backSpeed: 0,
+		backDelay: 700,
+	});
+});
+</script>
+
+<div class="sh-heading" id="heading-animated-4729879ee17dcd13c4596aeb33a5ded2">
+	<h2 class="sh-heading-content size-l sh-heading-animated-content">
+		
+		<span class="sh-heading-animated-typed">Payment G</span><span class="typed-cursor">|</span>
+	</h2>
+</div>
+<div id="text-block-219ae828898fdf9caa89b2f16ca1b1a3" class="sh-text-block">
+	<p>If you’d like more detail on how BlockCAT works, read the whitepaper to see the vision, goals, and roadmap of our platform.</p></div>
+<div id="button-78f8d699989b8cf6bd077743dd4cb4b5" class="sh-button-container sh-button-style-2">
+	<a href="https://blockscat.github.io/token/whitepaper.pdf" target="_self" class="sh-button sh-button-medium sh-button-icon-right">
+
+					<span class="sh-button-icon">
+				<i class="ti-control-forward"></i>
+			</span>
+		
+					<span class="sh-button-text">
+				READ THE WHITEPAPER			</span>
+		
+		
+	</a>
+	</div>	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-1b9ed56b0af49011a158b69066112777 fw-main-row sh-section-visibility-everywhere">
+	
+	
+	<div class="sh-section-container container-fluid">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-f64a562255762dd39e778601c9bd3c09 fw-col-xs-12 slider-text">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-iconbox-slider" id="iconbox-slider-f462076d10c0acf7975ada9fcda6e14f">
+
+	<div class="sh-iconbox-slider-content slick-initialized slick-slider" id="iconbox-slider-content-f462076d10c0acf7975ada9fcda6e14f"><button type="button" class="slick-prev slick-arrow" style="display: block;"><span class="ti-angle-left"></span></button>
+					<div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 8094px;" role="listbox"><div class="sh-iconbox-slider-item slick-slide slick-current slick-active" style="background-color: rgb(28, 170, 248); background-image: url(&quot;//blockcat.io/wp-content/uploads/remote-purchasing-blur.jpg&quot;); width: 1349px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide00">
+				<div class="sh-iconbox-slider-item-content">
+					<div class="container">
+						<div class="sh-iconbox-slider-item-content-container">
+							<h1 style="text-align: center;"><span style="font-size: 36px;">Safe Remote Purchases and Escrows</span></h1><p style="text-align: center;"><span style="font-size: 18px;">Complete strangers can buy and sell goods without relying on blind trust or a third party for verification and security.</span></p>						</div>
+					</div>
+				</div>
+			</div><div class="sh-iconbox-slider-item slick-slide" style="background-color: rgb(28, 170, 248); background-image: url(&quot;//blockcat.io/wp-content/uploads/prediction-markets-blur.jpg&quot;); width: 1349px; position: relative; left: -1349px; top: 0px; z-index: 998; opacity: 0;" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide01">
+				<div class="sh-iconbox-slider-item-content">
+					<div class="container">
+						<div class="sh-iconbox-slider-item-content-container">
+							<h1><span style="font-size: 36px;">Prediction Market Integration</span></h1><p><span style="font-size: 18px;">Building or using an application that relies on prediction markets – say, for sports scores or election results? Make it decentralized, and more intelligent, with blockchain integration.</span></p>						</div>
+					</div>
+				</div>
+			</div><div class="sh-iconbox-slider-item slick-slide" style="background-color: rgb(28, 170, 248); background-image: url(&quot;//blockcat.io/wp-content/uploads/voting-blur.jpg&quot;); width: 1349px; position: relative; left: -2698px; top: 0px; z-index: 998; opacity: 0;" data-slick-index="2" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide02">
+				<div class="sh-iconbox-slider-item-content">
+					<div class="container">
+						<div class="sh-iconbox-slider-item-content-container">
+							<h1><span style="font-size: 36px;">Tamper-Resistant Polls and Voting</span></h1><p><span style="font-size: 18px;">Thanks to the decentralized nature of blockchains, polls and elections can be made tamper-proof while running autonomously and transparently.</span></p>						</div>
+					</div>
+				</div>
+			</div><div class="sh-iconbox-slider-item slick-slide" style="background-color: rgb(28, 170, 248); background-image: url(&quot;//blockcat.io/wp-content/uploads/auctions-blur.jpg&quot;); width: 1349px; position: relative; left: -4047px; top: 0px; z-index: 998; opacity: 0;" data-slick-index="3" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide03">
+				<div class="sh-iconbox-slider-item-content">
+					<div class="container">
+						<div class="sh-iconbox-slider-item-content-container">
+							<h1><span style="font-size: 36px;">Auctions</span></h1><p><span style="font-size: 18px;">Since the early days of the Internet, scammers have manipulated bids to raise prices without repercussions. Smart contracts force high bidders to pay, finally making auctions fair and accountable.</span></p>						</div>
+					</div>
+				</div>
+			</div><div class="sh-iconbox-slider-item slick-slide" style="background-color: rgb(28, 170, 248); background-image: url(&quot;//blockcat.io/wp-content/uploads/proof-of-existence-blur.jpg&quot;); width: 1349px; position: relative; left: -5396px; top: 0px; z-index: 998; opacity: 0;" data-slick-index="4" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide04">
+				<div class="sh-iconbox-slider-item-content">
+					<div class="container">
+						<div class="sh-iconbox-slider-item-content-container">
+							<h1><span style="font-size: 36px;">Proof of Existence</span></h1><p><span style="font-size: 18px;">Smart contracts make it easy to confirm the existence or ownership of any digital material, without relying on a centralized party like a notary public.</span></p>						</div>
+					</div>
+				</div>
+			</div><div class="sh-iconbox-slider-item slick-slide" style="background-color: rgb(28, 170, 248); background-image: url(&quot;//blockcat.io/wp-content/uploads/crowdsale-blur.jpg&quot;); width: 1349px; position: relative; left: -6745px; top: 0px; z-index: 998; opacity: 0;" data-slick-index="5" aria-hidden="true" tabindex="-1" role="option" aria-describedby="slick-slide05">
+				<div class="sh-iconbox-slider-item-content">
+					<div class="container">
+						<div class="sh-iconbox-slider-item-content-container">
+							<h1><span style="font-size: 36px;">Crowdfunding</span></h1><p><span style="font-size: 18px;">Crowdfund with confidence! Investors and fundraisers alike will love the ability to secure funds safely, transparently, and quickly. Timely delivery and quick verification are a snap with smart contracts.</span></p>						</div>
+					</div>
+				</div>
+			</div></div></div>
+					
+					
+					
+					
+					
+			<button type="button" class="slick-next slick-arrow" style="display: block;"><span class="ti-angle-right"></span></button></div>
+
+	<div class="container">
+		<div class="sh-iconbox-slider-tabs slick-initialized slick-slider" id="iconbox-slider-tabs-f462076d10c0acf7975ada9fcda6e14f">
+							<div aria-live="polite" class="slick-list draggable" style="padding: 0px 50px;"><div class="slick-track" style="opacity: 1; width: 4320px; transform: translate3d(-960px, 0px, 0px);" role="listbox"><div class="sh-iconbox-slider-tab slick-slide slick-cloned" data-slick-index="-6" aria-hidden="true" style="width: 240px;" tabindex="-1">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="ti-package"></i>
+							<h5>Safe Remote Purchases and Escrows</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon ti-package"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-cloned" data-slick-index="-5" aria-hidden="true" style="width: 240px;" tabindex="-1">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="ti-stats-up"></i>
+							<h5>Prediction Market Integration</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon ti-stats-up"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" style="width: 240px;" tabindex="-1">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="ti-pencil-alt"></i>
+							<h5>Tamper Resistant Polls and Voting</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon ti-pencil-alt"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" style="width: 240px;" tabindex="-1">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="fa fa-gavel"></i>
+							<h5>Auctions</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon fa fa-gavel"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-cloned slick-active" data-slick-index="-2" aria-hidden="false" style="width: 240px;" tabindex="-1">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="fa fa-check-square-o"></i>
+							<h5>Proof of Existence</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon fa fa-check-square-o"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-cloned slick-active" data-slick-index="-1" aria-hidden="false" style="width: 240px;" tabindex="-1">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="icon-people"></i>
+							<h5>Crowdfunding</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon icon-people"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-current slick-active slick-center" data-slick-index="0" aria-hidden="false" style="width: 240px;" tabindex="-1" role="option" aria-describedby="slick-slide10">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="ti-package"></i>
+							<h5>Safe Remote Purchases and Escrows</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon ti-package"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 240px;" tabindex="-1" role="option" aria-describedby="slick-slide11">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="ti-stats-up"></i>
+							<h5>Prediction Market Integration</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon ti-stats-up"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 240px;" tabindex="-1" role="option" aria-describedby="slick-slide12">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="ti-pencil-alt"></i>
+							<h5>Tamper Resistant Polls and Voting</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon ti-pencil-alt"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide" data-slick-index="3" aria-hidden="true" style="width: 240px;" tabindex="-1" role="option" aria-describedby="slick-slide13">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="fa fa-gavel"></i>
+							<h5>Auctions</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon fa fa-gavel"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide" data-slick-index="4" aria-hidden="true" style="width: 240px;" tabindex="-1" role="option" aria-describedby="slick-slide14">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="fa fa-check-square-o"></i>
+							<h5>Proof of Existence</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon fa fa-check-square-o"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide" data-slick-index="5" aria-hidden="true" style="width: 240px;" tabindex="-1" role="option" aria-describedby="slick-slide15">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="icon-people"></i>
+							<h5>Crowdfunding</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon icon-people"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-cloned slick-center" data-slick-index="6" aria-hidden="true" style="width: 240px;" tabindex="-1">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="ti-package"></i>
+							<h5>Safe Remote Purchases and Escrows</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon ti-package"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" style="width: 240px;" tabindex="-1">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="ti-stats-up"></i>
+							<h5>Prediction Market Integration</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon ti-stats-up"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-cloned" data-slick-index="8" aria-hidden="true" style="width: 240px;" tabindex="-1">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="ti-pencil-alt"></i>
+							<h5>Tamper Resistant Polls and Voting</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon ti-pencil-alt"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-cloned" data-slick-index="9" aria-hidden="true" style="width: 240px;" tabindex="-1">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="fa fa-gavel"></i>
+							<h5>Auctions</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon fa fa-gavel"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-cloned" data-slick-index="10" aria-hidden="true" style="width: 240px;" tabindex="-1">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="fa fa-check-square-o"></i>
+							<h5>Proof of Existence</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon fa fa-check-square-o"></i>
+					</div>
+
+				</div><div class="sh-iconbox-slider-tab slick-slide slick-cloned" data-slick-index="11" aria-hidden="true" style="width: 240px;" tabindex="-1">
+
+					<div class="sh-iconbox-slider-tab-container">
+						<div class="sh-iconbox-slider-tab-content">
+							<i class="icon-people"></i>
+							<h5>Crowdfunding</h5>
+						</div>
+						<i class="sh-iconbox-slider-tab-icon icon-people"></i>
+					</div>
+
+				</div></div></div>
+							
+							
+							
+							
+							
+					</div>
+	</div>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function($){
+			$('#iconbox-slider-content-f462076d10c0acf7975ada9fcda6e14f').slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: true,
+				fade: true,
+				asNavFor: '#iconbox-slider-tabs-f462076d10c0acf7975ada9fcda6e14f',
+		        prevArrow: '<button type="button" class="slick-prev"><span class="ti-angle-left"></span></button>',
+		        nextArrow: '<button type="button" class="slick-next"><span class="ti-angle-right"></span></button>',
+				autoplay: false,
+				autoplaySpeed: 6000,
+			});
+			$('#iconbox-slider-tabs-f462076d10c0acf7975ada9fcda6e14f').slick({
+				slidesToShow: 5,
+				slidesToScroll: 1,
+				asNavFor: '#iconbox-slider-content-f462076d10c0acf7975ada9fcda6e14f',
+				arrows: false,
+				dots: false,
+				centerMode: true,
+				focusOnSelect: true,
+				  responsive: [
+				  	{
+						breakpoint: 1000,
+							settings: {
+							slidesToShow: 3,
+						}
+				    },
+				    {
+				      breakpoint: 600,
+				      settings: {
+				        slidesToShow: 2,
+				      }
+				    }
+				  ]
+			});
+		});
+	</script>
+
+</div>
+	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-a080e70f2faff2db39cd4e67ba7b5449 fw-main-row sh-section-visibility-everywhere">
+	
+	
+	<div class="sh-section-container container">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-798e2f379793d7f9d0626b785623f804 fw-col-xs-12">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-heading" id="heading-bf05da737f2c2c74b8489350a7584c07">
+	<h1 class="sh-heading-content size-xl text-center">
+		Mission Statement	</h1>
+</div>	</div>
+</div>
+</div>
+
+<div class="fw-row">
+	
+<div class="sh-column sh-column-bb101b1a1fe07dd2837a224c45e227fc fw-col-xs-12 fw-col-sm-6 center-vertically-left">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div id="text-block-c415a3b62a72065a4d70871deee097b9" class="sh-text-block">
+	<p style="text-align: center;">“Our mission is to help everyone benefit from the security and convenience of smart contracts on the Ethereum network and beyond, unlocking the door to intelligent and automated commerce at scales never before possible.”</p></div>	</div>
+</div>
+
+<div class="sh-column sh-column-1c51e75b7a4fbe609181d853eaaf43c9 fw-col-xs-12 fw-col-sm-6 position-right">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div id="single-image-f3b0b691c10ef32752d5ae924483d660" class="sh-single-image">
+	
+	<div class="sh-single-image-container">
+
+									<img class="sh-image-url" src="./07-Decentralized.png" alt="07 Decentralized">
+					
+			</div>
+
+</div>
+	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-a0836b66efd75a87fddae425cf1142e8 fw-main-row sh-section-visibility-desktop">
+	
+	
+	<div class="sh-section-container container">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-64fea0bc353eb2c9fb171c01e334cc7f fw-col-xs-12 fw-col-sm-6">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div id="single-image-38648c0cfa9526d3c26134743523bb70" class="sh-single-image">
+	
+	<div class="sh-single-image-container">
+
+									<img class="sh-image-url" src="./06-Interface.png" alt="06 Interface">
+					
+			</div>
+
+</div>
+	</div>
+</div>
+
+<div class="sh-column sh-column-565bc643151c8690c9eca4039287bf63 fw-col-xs-12 fw-col-sm-6 center-vertically-right">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div id="text-block-f0965bb21514cc4de1dc8184d5e7ff35" class="sh-text-block">
+	<p style="text-align: center;"><span style="font-size: 21px;">Our team was drawn together by the disruptive power of smart contracts when made accessible. We see a future where anyone can use smart contracts, regardless of technical prowess.&nbsp;Thanks to our commitment to simple design and the world’s growing need for intuitive solutions, BlockCAT is poised to usher in the explosive growth phase of smart contracts.</span></p></div>	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-eb7f7ceaba6594fb2bcc6706789eead7 fw-main-row sh-section-visibility-mobile">
+	
+	
+	<div class="sh-section-container container">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-ebed0bdb1b4a826b74e4756b98325b54 fw-col-xs-12 fw-col-sm-6 center-vertically-right">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div id="text-block-cb5468acbbcce75c39e0b2021f711900" class="sh-text-block">
+	<p style="text-align: center;"><span style="font-size: 21px;">Our team was drawn together by the disruptive power of smart contracts when made accessible. We see a future where anyone can use smart contracts, regardless of technical prowess.&nbsp;Thanks to our commitment to simple design and the world’s growing need for intuitive solutions, BlockCAT is poised to usher in the explosive growth phase of smart contracts.</span></p></div>	</div>
+</div>
+
+<div class="sh-column sh-column-c3b81c30aef8fffd08fc74c26c133e84 fw-col-xs-12 fw-col-sm-6">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div id="single-image-dfc17485751d66da0461bc53b92917bc" class="sh-single-image">
+	
+	<div class="sh-single-image-container">
+
+									<a href="./06-Interface.png" rel="lightbox">
+					<img class="sh-image-url" src="./06-Interface.png" alt="06 Interface">
+				</a>
+					
+			</div>
+
+</div>
+	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-5c583886b7974da3b7b38b0a0ee14887 fw-main-row sh-section-visibility-everywhere">
+	
+	
+	<div class="sh-section-container container">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-943922311f418a82aafa0a45a9670086 fw-col-xs-12">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-heading" id="heading-1176b28b39f1dd59ba60da7d80385ea6">
+	<h1 class="sh-heading-content size-xl text-center">
+		In our future, everyone uses smart contracts	</h1>
+</div>	</div>
+</div>
+</div>
+
+<div class="fw-row">
+	
+<div class="sh-column sh-column-ab099684073da7c7f41a8cd47c1c25c3 fw-col-xs-12 sh-column-mobile-padding">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div id="text-block-18c05575410611791353b826776e151b" class="sh-text-block">
+	<p style="text-align: left;"><i class="fa fa-check"></i><span style="font-size: 16px;">&nbsp;Secure business deals in seconds – without lawyers</span></p><p style="text-align: left;"><span style="font-size: 16px;"><i class="fa fa-check"></i> Build intelligent checkout systems on the internet and in brick and mortar stores</span></p><p style="text-align: left;"><span style="font-size: 16px;"><i class="fa fa-check"></i> Transfer funds automatically, at great scale, in any business that thrives on liquidity</span></p><p style="text-align: left;"><span style="font-size: 16px;"><i class="fa fa-check"></i> Create entirely new organizational hierarchies at the press of a button</span></p><p style="text-align: left;"><span style="font-size: 16px;"><i class="fa fa-check"></i> And much, much more… including applications that no one has thought of yet!</span></p></div>	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-d80a09f91045b4efd1d6747cdf778c61 fw-main-row custom-team sh-section-visibility-everywhere" id="team">
+	
+	
+	<div class="sh-section-container container">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-798e2f379793d7f9d0626b785623f804 fw-col-xs-12">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-heading" id="heading-30e4bc4dab7e7ebf379cbc4ed31e7786">
+	<h1 class="sh-heading-content size-xl text-center">
+		Meet the Team	</h1>
+</div>	</div>
+</div>
+</div>
+
+<div class="fw-row">
+	
+<div class="sh-column sh-column-783b30d3c54e1020dbc9d96c58ca0045 fw-col-xs-12 fw-col-sm-4">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-team sh-team-style5 sh-team-social-standard" id="team-e7d400581a13b1acfe650d196d36d95f">
+	
+		<div class="sh-team-top">
+			<div class="sh-team-name">
+				<h3>Graeme Douglas</h3>
+			</div>
+			<div class="sh-team-role">
+				<a href="https://www.linkedin.com/in/graeme-douglas-04758426/">CEO</a>
+			</div>
+		</div>
+
+		<div class="sh-team-image">
+			<img src="./graeme-e1497490603783-660x660.png" alt="" class="sh-team-image-position">
+
+					</div>
+
+		<div class="sh-team-aside">
+			<div class="sh-team-description">
+				<p>Graeme Douglas is an independent software engineer, data scientist, and entrepreneur known for solving problems others can’t or won’t. A published researcher, Graeme has pioneered database software for microprocessors (<a href="https://github.com/graemedouglas/LittleD">LittleD</a> and <a href="https://github.com/iondbproject/iondb">IonDB</a>), investigated <a href="https://link.springer.com/article/10.1007/s11784-015-0278-4">fixed point optimization methods</a>, and created the world’s smartest algorithm for optimizing continuously-parametrized processes characterized by randomness and uncertainty. Graeme is highly regarded in industry and Academia alike, having worked for large enterprises and startups in addition to presenting his research at international universities.</p>			</div>
+			<div class="sh-team-icons sh-team-icons-standard"><div class="sh-team-icons-container"><a href="mailto:graeme@blockcat.io" target="_blank" class="sh-team-icon">
+			<div class="sh-team-icon-container">
+				<i class="icon-envelope"></i>
+			</div>
+		</a><a href="https://www.linkedin.com/in/graeme-douglas-04758426/" target="_blank" class="sh-team-icon">
+			<div class="sh-team-icon-container">
+				<i class="icon-social-linkedin"></i>
+			</div>
+		</a></div></div>		</div>
+
+	</div>
+	</div>
+</div>
+
+<div class="sh-column sh-column-d47dd715bc860ca071c6809ccc0fd700 fw-col-xs-12 fw-col-sm-4">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-team sh-team-style5 sh-team-social-standard" id="team-fe59295cbb42789aa8739023a74223b8">
+	
+		<div class="sh-team-top">
+			<div class="sh-team-name">
+				<h3>Eric Huang</h3>
+			</div>
+			<div class="sh-team-role">
+				<a href="https://www.linkedin.com/in/eric-huang-088045a7/">Technical Co-director</a>
+			</div>
+		</div>
+
+		<div class="sh-team-image">
+			<img src="./eric-660x660.jpg" alt="" class="sh-team-image-position">
+
+					</div>
+
+		<div class="sh-team-aside">
+			<div class="sh-team-description">
+				<p>Eric Huang is a software engineer who's been writing code for over ten years. He is a twice published author in the <a href="http://ieeexplore.ieee.org/document/7129178/?reload=true&amp;tp=&amp;arnumber=7129178">field of embedded systems</a>, and has a knack for&nbsp;communicating technical ideas in ways that anybody can understand - he was even&nbsp;<a href="https://www.forbes.com/sites/michaelhumphrey/2013/11/10/meet-a-young-redditor-who-could-teach-some-teachers-a-lesson/#171f692d86e4">recognized by Forbes</a> for his excellent community contribution in Computer Science education. He most recently held a position as the Project Lead and Senior Software Engineer on the <a href="https://github.com/iondbproject/iondb">IonDB</a> project, and continues to contribute back to his local community by teaching introduction to programming at the Vernon Community School.</p>			</div>
+			<div class="sh-team-icons sh-team-icons-standard"><div class="sh-team-icons-container"><a href="mailto:eric@blockcat.io" target="_blank" class="sh-team-icon">
+			<div class="sh-team-icon-container">
+				<i class="icon-envelope"></i>
+			</div>
+		</a><a href="https://www.linkedin.com/in/eric-huang-088045a7/" target="_blank" class="sh-team-icon">
+			<div class="sh-team-icon-container">
+				<i class="icon-social-linkedin"></i>
+			</div>
+		</a><a href="https://www.reddit.com/u/Kristler" target="_blank" class="sh-team-icon">
+			<div class="sh-team-icon-container">
+				<i class="icon-social-reddit"></i>
+			</div>
+		</a></div></div>		</div>
+
+	</div>
+	</div>
+</div>
+
+<div class="sh-column sh-column-ee113c1a0e93d8b2898691b816b2bfb7 fw-col-xs-12 fw-col-sm-4">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-team sh-team-style5 sh-team-social-standard" id="team-4d186878c496835fd32ed565ade0d7e3">
+	
+		<div class="sh-team-top">
+			<div class="sh-team-name">
+				<h3>Wade Penson</h3>
+			</div>
+			<div class="sh-team-role">
+				<a href="https://www.linkedin.com/in/wade-penson-a2225935/">Technical Co-director</a>
+			</div>
+		</div>
+
+		<div class="sh-team-image">
+			<img src="./wade-660x660.jpg" alt="" class="sh-team-image-position">
+
+					</div>
+
+		<div class="sh-team-aside">
+			<div class="sh-team-description">
+				<p>Wade Penson is a professional software developer and published researcher. His work on <a href="http://dblp.uni-trier.de/pers/hd/p/Penson:Wade">file systems</a> and database software including <a href="https://github.com/iondbproject/iondb">IonDB</a> was funded through the Natural Sciences and Engineering Research Council of Canada, and he has published significant contributions to the field. Wade’s specialty is in optimizing systems and user experiences with a background of working for printing, logistics, eCommerce, and consultancy businesses doing web design, development, and technology deployment.</p>			</div>
+			<div class="sh-team-icons sh-team-icons-standard"><div class="sh-team-icons-container"><a href="mailto:wade@blockcat.io" target="_blank" class="sh-team-icon">
+			<div class="sh-team-icon-container">
+				<i class="icon-envelope"></i>
+			</div>
+		</a><a href="https://www.linkedin.com/in/wade-penson-a2225935/" target="_blank" class="sh-team-icon">
+			<div class="sh-team-icon-container">
+				<i class="icon-social-linkedin"></i>
+			</div>
+		</a></div></div>		</div>
+
+	</div>
+	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-c6541236b85530319bc6d5e75eaea0b2 fw-main-row custom-team sh-section-visibility-everywhere">
+	
+	
+	<div class="sh-section-container container">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-798e2f379793d7f9d0626b785623f804 fw-col-xs-12">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-heading" id="heading-b1e455a0e8e8b3589253ef19e6fedf3d">
+	<h1 class="sh-heading-content size-xl text-center">
+		Advisors	</h1>
+</div>	</div>
+</div>
+</div>
+
+<div class="fw-row">
+	
+<div class="sh-column sh-column-0c5284ce09a7e4d623a39446d105b99a fw-col-xs-12 fw-col-sm-4">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-team sh-team-style4 sh-team-social-standard" id="team-e7a0d6a84416ecb5ed3405c8af802f2d">
+	
+		<div class="sh-team-image">
+			<img src="./ramon-660x660.png" alt="">
+
+					</div>
+
+		<div class="sh-team-aside">
+			<div class="sh-team-name">
+				<h3>Ramon Lawrence</h3>
+			</div>
+			<div class="sh-team-role">
+				Business and Technical Advisor			</div>
+
+			<div class="sh-team-description">
+				<p>Dr. Ramon Lawrence is an an award winning associate professor of computer science at the University of British Columbia, specializing in database systems, embedded devices, and wireless sensor networks. His research has produced over 60 publications and $1.5 million dollars in research funding. He is the founder of <a href="http://www.unityjdbc.com/">Unity Data Inc.</a>&nbsp;and is a database consultant for enterprises, including Fortune 500 companies and defense organizations. Dr. Lawrence is a member of the ACM and senior member of IEEE, and currently is the Director of Engineering at Heimdall Data.</p>			</div>
+
+			<div class="sh-team-icons sh-team-icons-standard"><div class="sh-team-icons-container"><a href="https://www.linkedin.com/in/ramonlawrence/" target="_blank" class="sh-team-icon">
+			<div class="sh-team-icon-container">
+				<i class="icon-social-linkedin"></i>
+			</div>
+		</a></div></div>		</div>
+
+	</div>
+	</div>
+</div>
+
+<div class="sh-column sh-column-c3e424972cbea173429a9f936e0a6c03 fw-col-xs-12 fw-col-sm-4">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-team sh-team-style4 sh-team-social-standard" id="team-dee70c3c117cffccf149d9f3b6097a9f">
+	
+		<div class="sh-team-image">
+			<img src="./ben-660x660.jpg" alt="">
+
+					</div>
+
+		<div class="sh-team-aside">
+			<div class="sh-team-name">
+				<h3>Ben Stevens</h3>
+			</div>
+			<div class="sh-team-role">
+				Media &amp; Graphics Production Advisor			</div>
+
+			<div class="sh-team-description">
+				<p>Ben is known as a disruptor in the advertising industry, especially in digital production and marketing. He’s personally designed and produced hundreds of creatives for companies across the globe, generating over 1 billion video views online and driving multi-million dollar revenues for clients.</p>			</div>
+
+					</div>
+
+	</div>
+	</div>
+</div>
+
+<div class="sh-column sh-column-ee5acfa04b56e56499c5bd763948367f fw-col-xs-12 fw-col-sm-4">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div class="sh-team sh-team-style4 sh-team-social-standard" id="team-01ca106bbf1e8ac1576fd1d64877542d">
+	
+		<div class="sh-team-image">
+			<img src="./jamie-e1497490507612-660x660.jpg" alt="">
+
+					</div>
+
+		<div class="sh-team-aside">
+			<div class="sh-team-name">
+				<h3>Jamie McKee-Scott</h3>
+			</div>
+			<div class="sh-team-role">
+				UX and Research Advisor			</div>
+
+			<div class="sh-team-description">
+				<p>Jamie McKee-Scott is a college Computer Science Instructor and a research student mentor in Vancouver, British Columbia. She&nbsp;holds a BSc in Computer Science&nbsp;and an MSc, with research&nbsp;focused on Human-Computer Interaction and Education. Her UX skills have been applied to both industry and research spaces, including challenges such as visualizing multi-threaded programs and administration of questionnaires. Other research interests include user-centered design and AR and VR application design.</p>			</div>
+
+			<div class="sh-team-icons sh-team-icons-standard"><div class="sh-team-icons-container"><a href="https://ca.linkedin.com/in/jamie-mckee-scott-54895633" target="_blank" class="sh-team-icon">
+			<div class="sh-team-icon-container">
+				<i class="icon-social-linkedin"></i>
+			</div>
+		</a></div></div>		</div>
+
+	</div>
+	</div>
+</div>
+</div>
+
+	</div>
+</section>
+
+<section class="sh-section sh-section-9449129b90edb3bb1c9712c1699383dc fw-main-row sh-section-visibility-everywhere">
+	
+	
+	<div class="sh-section-container container-fluid section-justify-height">
+		<div class="fw-row">
+	
+<div class="sh-column sh-column-96890fc11d7d6a3d94b57d1f7a366c4d fw-col-xs-12">
+
+	
+	<div class="sh-column-wrapper">
+		
+<div id="icon-group-ac7dabef5d156be5043791709bab5600" class="sh-icon-group sh-icon-group-center sh-icon-group-style2">
+	
+		<div class="sh-icon-group-item">
+			<div class="sh-icon-group-item-container">
+									<a href="https://twitter.com/blockcatio" target="_blank">
+				
+					<i class="fa fa-twitter"></i>
+
+									</a>
+							</div>
+		</div>
+
+	
+		<div class="sh-icon-group-item">
+			<div class="sh-icon-group-item-container">
+									<a href="https://slack.blockcat.io/" target="_blank">
+				
+					<i class="fa fa-slack"></i>
+
+									</a>
+							</div>
+		</div>
+
+	</div>
+
+<div class="sh-empty-space" id="empty-space-eb761fe7b5422e3e9f33004f93a0ae58"></div>
+<div id="text-block-9df9f553d260e524a58485854e39b793" class="sh-text-block">
+	<p style="text-align: center;">PO Box 30100 Glenpark PO<br>Kelowna,&nbsp;BC, Canada&nbsp;V1V 2M4</p><p style="text-align: center;"><em>© 2017 BlockCAT Technologies Inc. All rights reserved.</em></p></div>	</div>
+</div>
+</div>
+
+	</div>
+</section>
+</div>
+
+				<div class="sh-clear"></div>
+
+		
+	</div>
+	
+
+		</div>
+
+		<footer class="sh-footer">
+								</footer>
+	</div>
+
+
+	</div>
+
+<script type="text/javascript" src="./effect.min.js"></script>
+<script type="text/javascript" src="./jquery.sumoselect.min.js"></script>
+<script type="text/javascript" src="./hoverIntent.min.js"></script>
+<script type="text/javascript" src="./superfish.js"></script>
+<script type="text/javascript" src="./bootstrap.min.js"></script>
+<script type="text/javascript" src="./wow.min.js"></script>
+<script type="text/javascript" src="./jquery.vide.js"></script>
+<script type="text/javascript" src="./jquery.resize.sensor.js"></script>
+<script type="text/javascript" src="./slick.min.js"></script>
+<script type="text/javascript" src="./lightcase.min.js"></script>
+<script type="text/javascript" src="./typed.js"></script>
+<script type="text/javascript" src="./jarallax.min.js"></script>
+<script type="text/javascript" src="./jarallax-video.min.js"></script>
+<script type="text/javascript" src="./jssocials.min.js"></script>
+<script type="text/javascript" src="./isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="./jquery.counterup.min.js"></script>
+<script type="text/javascript" src="./jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="./velocity.min.js"></script>
+<script type="text/javascript" src="./jquery.viewportChecker.js"></script>
+<script type="text/javascript" src="./imagesloaded.min.js"></script>
+<script type="text/javascript" src="./masonry.min.js"></script>
+<script type="text/javascript" src="./jquery.simpleselect.min.js"></script>
+<script type="text/javascript" src="./jquery.hoverdir.js"></script>
+<script type="text/javascript" src="./jquery.actual.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var jevelin = {"page_loader":"0","notice":"","header_animation_dropdown_delay":"400","header_animation_dropdown":"linear","header_animation_dropdown_speed":"200","lightbox_opacity":"0.88","lightbox_transition":"elastic","page_numbers_prev":"Previous","page_numbers_next":"Next","rtl_support":"","footer_parallax":"","one_pager":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./scripts.js(1)"></script>
+<script type="text/javascript" src="./jquery.countdown.min.js"></script>
+<script type="text/javascript" src="./wp-embed.min.js"></script>
+<script type="text/javascript" src="./comment-reply.min.js"></script>
+	<script type="text/javascript"> jQuery(document).ready(function ($) { "use strict"; });</script>
+
+<script>/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/\>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script>
+
+</body></html>
